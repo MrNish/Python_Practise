@@ -1,17 +1,18 @@
 '''
 1. Strings are Immutable: Once we declare the string we can't modify it,
    if we try to modify the string it will create new String.
-   
+
 2. If new string does not have any reference variable then it will be removed.
 
 3. Python Internally uses String Interning.
 
 4. String Interning is the process of Checking sring Intern Pool before creating any new object.
+
 5. Whenever we want to create new object, Python first will check string intern pool,
    weather that object already exists or not.
 
-6. When Object already exist in the stirng intern Records then address
-   of existing object will e reused.
+6. When Object already exist in the string intern Records then address
+   of existing object will be reused.
 '''
 
 # s1 = 'kodnest'
