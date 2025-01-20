@@ -6,7 +6,7 @@
 
 3. Python Internally uses String Interning.
 
-4. String Interning is the process of Checking sring Intern Pool before creating any new object.
+4. String Interning is the process of Checking string Intern Pool before creating any new object.
 
 5. Whenever we want to create new object, Python first will check string intern pool,
    weather that object already exists or not.
